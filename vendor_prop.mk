@@ -63,6 +63,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     #persist.vendor.camera.is_type=4 \
     #vendor.camera.hal1.packagelist=com.whatsapp,com.instagram.android
 
+# Dex2oat
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.dex2oat64.enabled=true
+
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
