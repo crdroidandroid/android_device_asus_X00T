@@ -23,7 +23,7 @@ TARGET_SCREEN_DENSITY := 420
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := taskmaster_defconfig
+TARGET_KERNEL_CONFIG := X00T_defconfig
 
 # Inherit the proprietary files
 -include vendor/asus/X00TD/BoardConfigVendor.mk
